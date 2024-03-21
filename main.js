@@ -22,4 +22,7 @@ form.addEventListener("submit", function(e){
         numeroB.style.border = '1px solid red';
 
     }
+    setTimeout(function() {
+        location.reload();
+    }, 2000);
 })
